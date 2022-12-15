@@ -1,0 +1,27 @@
+name: libs_samples_app
+description: Flutter samples demonstrating some libs.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.0.3
+  flutter_bloc: ^8.0.1
+
+  local_auth: ^2.1.2
+  very_good_analysis: ^3.0.1
+  image_picker: ^0.8.5+3
+  shimmer: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
